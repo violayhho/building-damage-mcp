@@ -14,8 +14,8 @@ Your damage dataset (.shp / .geojson / .gpkg)
         ▼
   server.py  (FastMCP server)
         │  auto-discovers the file on startup
-        │  loads it into GeoPandas 
-        │  with a spatial index
+        │  loads it into GeoPandas with a spatial index 
+        │  
         ▼
   MCP Tools
   ┌──────────────────────────┐
