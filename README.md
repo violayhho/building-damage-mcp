@@ -14,17 +14,17 @@ Your damage dataset (.shp / .geojson / .gpkg)
         ▼
   server.py  (FastMCP server)
         │  auto-discovers the file on startup
-        │  loads it into GeoPandas with a spatial index 
-        │  
+        │  loads it into GeoPandas  
+        │  with a spatial index
         ▼
   MCP Tools
   ┌──────────────────────────┐
+  │  list_fields             │
   │  geocode_place           │
   │  get_damage_summary      │
   │  query_damage_in_area    │
   │  query_damage_in_radius  │
   │  query_buildings_detail  │
-  │  list_fields             │
   └──────────────────────────┘
         │
         ▼
