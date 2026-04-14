@@ -1,0 +1,14 @@
+[project]
+name = "building-damage-mcp"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fiona>=1.10.1",
+    "geopandas>=1.1.3",
+    "geopy>=2.4.1",
+    "mcp[cli]>=1.27.0",
+    "pyproj>=3.7.2",
+    "shapely>=2.1.2",
+]
