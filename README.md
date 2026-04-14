@@ -28,7 +28,7 @@ Your damage dataset (.shp / .geojson / .gpkg)
   └──────────────────────────┘
         │
         ▼
-  Claude (or any MCP client) ── asks natural-language questions
+  MCP client ── asks natural-language questions
 ```
 
 The server sits between your geospatial data and an AI assistant. Claude calls the tools automatically based on your question — you never write code or run queries yourself.
