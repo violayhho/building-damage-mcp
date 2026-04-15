@@ -2,7 +2,7 @@
   "mcpServers": {
     "building-damage": {
       "command": "uv",
-      "args": ["run", "--directory", "/home/yuhsuanho/MCP", "python", "server.py"],
+      "args": ["run", "--directory", "/path/to/MCP", "python", "server.py"],
       "env": {
         "DAMAGE_DATA_PATH": ""
       }
